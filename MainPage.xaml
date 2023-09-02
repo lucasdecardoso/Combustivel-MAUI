@@ -25,7 +25,8 @@
                 />
 
             <Entry 
-               Placeholder="Valor do Alcool" 
+               Placeholder="Valor do Alcool"
+               PlaceholderColor="Gray"
                x:Name="TextValorAlcool"
                Text="{Binding ValorDouble, Mode=TwoWay}"
                Keyboard="Numeric"
@@ -33,6 +34,7 @@
 
             <Entry 
                 Placeholder="Valor da Gasolina"
+                PlaceholderColor="Gray"
                 x:Name="TextValorGasolina"
                 Text="{Binding ValorDouble, Mode=TwoWay}"
                 Keyboard="Numeric"
